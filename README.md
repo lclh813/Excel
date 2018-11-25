@@ -1,2 +1,2 @@
 # test
-[![Watch the video](https://img.youtube.com/vi/IdsywLIGNAo/maxresdefault.jpg)](https://youtu.be/IdsywLIGNAo)
+[![Watch the video](https://img.youtube.com/vi/IdsywLIGNAo/hqdefault.jpg)](https://youtu.be/IdsywLIGNAo)
