@@ -8,8 +8,8 @@
 - Formula: ```IF```
 ### 1.3. Dynamically Update Data according to the Location of the Vertical Line
 - VBA:   
-  Class Module: Specify which line and which point to be referred to.  
-  Module: Specify to which chart the Class Module is to be applied.  
+  ```Class Module``` Specify which line and which point to be referred to.  
+  ```Module``` Specify to which chart the Class Module is to be applied.  
 - Formula: ```INDEX``` ```OFFSET```  
  
 ## Demo 2. Bubble Chart
@@ -17,7 +17,7 @@
 - Formula: ```IF``` ```INDEX``` ```MATCH```
 ### 2.2. Add an Interactive Legend
 - VBA:   
-  Microsoft Excel Object: Determine which legend items has been selected and data that should be displayed on the chart.  
+  ```Microsoft Excel Object``` Determine which legend items has been selected and data that should be displayed on the chart.  
 
 ## Demo 3. Cumulative Table
 ### 3.1. Create a Drop-down List for Start Time
