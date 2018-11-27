@@ -34,4 +34,4 @@
 
 [![Watch the video](https://img.youtube.com/vi/Youtubeid/hqdefault.jpg)](https://youtu.be/Youtubeid)
 
-[![Demo CountPages alpha](https://j.gifs.com/MQMXzG.gif =250x250)]
+[![Demo CountPages alpha](https://j.gifs.com/MQMXzG.gif|width=100)]
