@@ -22,12 +22,12 @@
 ## Demo 3. Cumulative Table
 ### 3.1. Create a Drop-down List for Start Time
 > *Point: Create a drop-down list without blank by ignoring cells not showing formula results.*    
-- Function: Data Validation
+- Feature: Data Validation
 - Formula: ```FIND``` ```IF``` ```IFERROR``` ```INDEX``` ```ISBLANK``` ```ISERROR``` ```LEN``` ```ROW``` ```SMALL```  
 ### 3.2. Create a Drop-down List for End Time
 > *Point 1: End time should always be greater than start time.*  
 > *Point 2: Create a drop-down list without blank by ignoring cells not showing formula results.*    
-- Function: Data Validation
+- Feature: Data Validation
 - Formula: ```COUNTIF``` ```DATE``` ```FIND``` ```IF``` ```IFERROR``` ```INDEX``` ```ISBLANK``` ```ISERROR``` ```LEFT``` ```LEN``` ```MONTH``` ```RIGHT``` ```ROW``` ```OFFSET``` ```SMALL```
 ### 3.3. Calculate Cumulative Sum
 - Formula: ```COLUMN``` ```INDEX``` ```LEFT``` ```LEN``` ```MATCH``` ```RIGHT``` ```SUMPRODUCT```
