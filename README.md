@@ -25,7 +25,7 @@
 - Function: Data Validation
 - Formula: FIND, IF, IFERROR, INDEX, ISBLANK, ISERROR, LEN, ROW, SMALL
 ### 3.2. Create a Drop-down List for End Time
-> Point 1: End Time should always be greater than Start Time
+> Point 1: End Time should always be greater than Start Time  
 > Point 2: Create a Drop-down List Ignoring Cells without Formula Results since the Corresponding Data has not yet been Imported.
 - Function: Data Validation
 - Formula: COUNTIF, DATE, FIND, IF, IFERROR, INDEX, ISBLANK, ISERROR, LEFT, LEN, MONTH, RIGHT, ROW, OFFSET, SMALL
