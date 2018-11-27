@@ -3,7 +3,7 @@
 
 ## Demo 1. Line Chart
 ### 1.1. Select Data for the Chart
-- Formula: ```INDEX```, ```MATCH```
+- Formula: ```INDEX``` ```MATCH```
 ### 1.2. Add an Interactive Vertical Line
 - Formula: *IF*
 ### 1.3. Dynamically Update Data according to the Location of the Vertical Line
