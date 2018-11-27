@@ -3,14 +3,14 @@
 
 ## Demo 1. Line Chart
 ### 1.1. Select Data for the Chart
-- Formula: INDEX, MATCH
+- Formula: '''INDEX''', '''MATCH'''
 ### 1.2. Add an Interactive Vertical Line
-- Formula: IF
+- Formula: *IF*
 ### 1.3. Dynamically Update Data according to the Location of the Vertical Line
 - VBA:   
   Class Module: Specify which line and which point to be referred to.  
   Module: Specify to which chart the Class Module is to be applied.  
-- Formula: INDEX, OFFSET  
+- Formula: *INDEX, OFFSET*  
  
 ## Demo 2. Bubble Chart
 ### 2.1. Select Data for the Chart
