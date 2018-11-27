@@ -6,7 +6,7 @@
 - Formula: INDEX, MATCH
 ### 1.2. Add an Interactive Vertical Line
 - Formula: IF
-### 1.3. Dynamically Update Data according to the location of the Vertical Line
+### 1.3. Dynamically Update Data according to the Location of the Vertical Line
 - VBA:   
   Class Module: Specify which line and which point to be referred to.  
   Module: Specify to which chart the Class Module is to be applied.  
