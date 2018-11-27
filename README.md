@@ -15,6 +15,8 @@
 - Formula: ```INDEX``` ```OFFSET```  
  
 ## Demo 2. Bubble Chart
+<img src="https://j.gifs.com/mQA6ZE.gif" width="400" height="300" />    
+
 ### 2.1. Select Data for the Chart
 - Formula: ```IF``` ```INDEX``` ```MATCH```
 ### 2.2. Add an Interactive Legend
