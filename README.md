@@ -34,4 +34,4 @@
 
 [![Watch the video](https://img.youtube.com/vi/Youtubeid/hqdefault.jpg)](https://youtu.be/Youtubeid)
 
-![](https://j.gifs.com/MQMXzG.gif)
+<img src="(https://j.gifs.com/MQMXzG.gif" width="40" height="40" />
