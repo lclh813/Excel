@@ -2,7 +2,7 @@
 ## Obejective
 
 ## Demo 1. Line Chart
-<img src="https://j.gifs.com/MQMXzG.gif" width="300" height="300" />
+<img src="https://j.gifs.com/MQMXzG.gif" width="350" height="300" />
 
 ### 1.1. Select Data for the Chart
 - Formula: ```INDEX``` ```MATCH```
