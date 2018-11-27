@@ -2,6 +2,7 @@
 ## Obejective
 
 ## Demo 1. Line Chart
+<img src="https://j.gifs.com/MQMXzG.gif" width="250" height="260" />
 ### 1.1. Select Data for the Chart
 - Formula: ```INDEX``` ```MATCH```
 ### 1.2. Add an Interactive Vertical Line
@@ -31,7 +32,3 @@
 - Formula: ```COUNTIF``` ```DATE``` ```FIND``` ```IF``` ```IFERROR``` ```INDEX``` ```ISBLANK``` ```ISERROR``` ```LEFT``` ```LEN``` ```MONTH``` ```RIGHT``` ```ROW``` ```OFFSET``` ```SMALL```
 ### 3.3. Calculate Cumulative Sum
 - Formula: ```COLUMN``` ```INDEX``` ```LEFT``` ```LEN``` ```MATCH``` ```RIGHT``` ```SUMPRODUCT```
-
-[![Watch the video](https://img.youtube.com/vi/Youtubeid/hqdefault.jpg)](https://youtu.be/Youtubeid)
-
-<img src="https://j.gifs.com/MQMXzG.gif" width="250" height="260" />
