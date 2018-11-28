@@ -35,5 +35,10 @@
 > *Point 2: Create a drop-down list without blank by ignoring cells not showing formula results.*    
 - Feature: Data Validation
 - Formula: ```COUNTIF``` ```DATE``` ```FIND``` ```IF``` ```IFERROR``` ```INDEX``` ```ISBLANK``` ```ISERROR``` ```LEFT``` ```LEN``` ```MONTH``` ```RIGHT``` ```ROW``` ```OFFSET``` ```SMALL```
+  - ```=IFERROR(
+                   OFFSET($AD$1,SMALL(IF(ISERROR(FIND("合計",AD:AD)),
+                                                               ROW($AD:$AD),
+                                                               ""),
+                                                           ROW(4:4))-1,0),"")```
 ### 3.3. Calculate Cumulative Sum
 - Formula: ```COLUMN``` ```INDEX``` ```LEFT``` ```LEN``` ```MATCH``` ```RIGHT``` ```SUMPRODUCT```
