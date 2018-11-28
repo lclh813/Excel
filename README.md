@@ -25,7 +25,6 @@
 
 ## Demo 3. Cumulative Table
 <img src="https://j.gifs.com/jqxkWl.gif" width="600" height="240" />
-<img src="https://j.gifs.com/JqJRY2.gif" width="600" height="240" />
  
 ### 3.1. Create a Drop-down List for Start Time
 > *Point: Create a drop-down list without blank by ignoring cells not showing formula results.*    
