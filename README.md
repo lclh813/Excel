@@ -117,10 +117,18 @@ Create charts and tables that are easy to track data across time.
 ```  
 #### **_Step 3. Calculate Cumulative Sum_**  
 - Formula: ```COLUMN``` ```INDEX``` ```LEFT``` ```LEN``` ```MATCH``` ```RIGHT``` ```SUMPRODUCT```   
+#### **_Step 3.1. Cumulative Sum of Current Year_**    
 ```
 =SUMPRODUCT(Data!13:13,
             (Data!$5:$5=H$5)*1,
             (COLUMN(Data!13:13)>=MATCH(B7,Data!$6:$6,0))*1,
             (COLUMN(Data!13:13)<=MATCH(C7,Data!6:6,0)+6)*1
             )
-``` 
+```  
+#### **_Step 3.2. Cumulative Sum of Previous Year_**  
+```
+=SUMPRODUCT(Data!13:13,
+            (Data!$5:$5=H$5)*1,
+            (COLUMN(Data!13:13)>=MATCH(LEFT(B5,LEN(B5)-2)&(RIGHT(B5,2)-1),Data!6:6,0))*1,
+            (COLUMN(Data!13:13)<=MATCH(LEFT(C5,LEN(C5)-2)&(RIGHT(C5,2)-1),Data!6:6,0)+6*1)
+```
