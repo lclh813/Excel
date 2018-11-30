@@ -92,5 +92,17 @@ Create charts and tables that are easy to track data across time.
               1),
          0)
 ```   
+###
+```
+=IFERROR(OFFSET($AE$1,
+                SMALL(IF(($AG:$AG1000-(DATE("20"&RIGHT(StartTime,2),
+                                            MONTH(LEFT(StartTime,3)&"-1"),
+                                            1)))>0,
+                         ROW($AG$1:$AG$1000),
+                         ""),
+                      ROW(1:1))-1,
+                0),
+         "")
+```   
 #### **_Step 3. Calculate Cumulative Sum_**  
 - Formula: ```COLUMN``` ```INDEX``` ```LEFT``` ```LEN``` ```MATCH``` ```RIGHT``` ```SUMPRODUCT```
