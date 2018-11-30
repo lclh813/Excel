@@ -116,4 +116,11 @@ Create charts and tables that are easy to track data across time.
         COUNTIF(Data!$AI:$AI,1),1)
 ```  
 #### **_Step 3. Calculate Cumulative Sum_**  
-- Formula: ```COLUMN``` ```INDEX``` ```LEFT``` ```LEN``` ```MATCH``` ```RIGHT``` ```SUMPRODUCT```
+- Formula: ```COLUMN``` ```INDEX``` ```LEFT``` ```LEN``` ```MATCH``` ```RIGHT``` ```SUMPRODUCT```   
+```
+=SUMPRODUCT(Data!13:13,
+            (Data!$5:$5=H$5)*1,
+            (COLUMN(Data!13:13)>=MATCH(B7,Data!$6:$6,0))*1,
+            (COLUMN(Data!13:13)<=MATCH(C7,Data!6:6,0)+6)*1
+            )
+``` 
