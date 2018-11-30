@@ -2,7 +2,7 @@
 ## Obejective
 Create charts and tables that are easy to track data across time.   
 ## Demo 1. Line Chart
-> *Action: Move cursor to a specific point in the line chart.* 
+> *Action: Move cursor to a specific point in the line chart.*  
 > *Result: Cells that display time and corresponding data change accrodingly.*     
 <img src="https://j.gifs.com/nrBVMW.gif" width="400" height="300" />
 
