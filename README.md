@@ -4,7 +4,7 @@ Create charts and tables that are easy to track data across time.
 ## Demo 1. Line Chart
 ### 1.1. Introduction
 **_Action:_** *Move cursor to a specific point in the line chart.*  
-  **_Result:_** *Cells that display corresponding time and data change accrodingly.*
+**_Result:_** *Cells that display corresponding time and data change accrodingly.*
 
 <img src="https://j.gifs.com/nrBVMW.gif" width="400" height="300" />
 
@@ -42,20 +42,16 @@ Create charts and tables that are easy to track data across time.
 **_Result 2:_** *Data for the specific period of time is to be shown.*    
 
 <img src="https://j.gifs.com/jqxkWl.gif" width="600" height="240" />
- 
-### 3.1. Create a Drop-down List for Start Time
+
+### 3.2. Steps  
+#### **_Step 1. Create a Drop-down List for Start Time_**
 > *Point: Create a drop-down list without blank by ignoring cells not showing formula results.*    
 - Feature: Data Validation
 - Formula: ```FIND``` ```IF``` ```IFERROR``` ```INDEX``` ```ISBLANK``` ```ISERROR``` ```LEN``` ```ROW``` ```SMALL```  
-### 3.2. Create a Drop-down List for End Time
+#### **_Step 2. Create a Drop-down List for End Time_**
 > *Point 1: End time should always be greater than start time.*  
 > *Point 2: Create a drop-down list without blank by ignoring cells not showing formula results.*    
 - Feature: Data Validation
 - Formula: ```COUNTIF``` ```DATE``` ```FIND``` ```IF``` ```IFERROR``` ```INDEX``` ```ISBLANK``` ```ISERROR``` ```LEFT``` ```LEN``` ```MONTH``` ```RIGHT``` ```ROW``` ```OFFSET``` ```SMALL```
-  - ```=IFERROR(
-                   OFFSET($AD$1,SMALL(IF(ISERROR(FIND("合計",AD:AD)),
-                                                               ROW($AD:$AD),
-                                                               ""),
-                                                           ROW(4:4))-1,0),"")```
-### 3.3. Calculate Cumulative Sum
+#### **_Step 3. Calculate Cumulative Sum_**  
 - Formula: ```COLUMN``` ```INDEX``` ```LEFT``` ```LEN``` ```MATCH``` ```RIGHT``` ```SUMPRODUCT```
