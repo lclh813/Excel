@@ -35,7 +35,7 @@ Create charts and tables that are easy to track data across time.
 
 ## Demo 3. Cumulative Table
 ### 3.1. Introduction  
-**_Action 1:_** *Select a specific time from a drop-down list for **_Start Time_**.*  
+**_Action 1:**_ *Select a specific time from a drop-down list for **_Start Time_**.*  
 **_Result 1:_** *Drop-down list for **_End Time_** starts one month later than the selected **_Start Time_**.* 
 
 **_Action 2:_** *Select a specific time from a drop-down list for **_End Time_**.*   
@@ -45,19 +45,19 @@ Create charts and tables that are easy to track data across time.
 
 ### 3.2. Steps  
 #### **_Step 1. Create a Drop-down List for Start Time_**
-> *Point: Create a drop-down list without blanks by ignoring cells not showing formula results.*    
+> **_Point:_** *Create a drop-down list without blanks by ignoring cells not showing formula results.*    
 - Feature: Data Validation
 - Formula: ```FIND``` ```IF``` ```IFERROR``` ```INDEX``` ```ISBLANK``` ```ISERROR``` ```LEN``` ```ROW``` ```SMALL```  
 #### **_Step 1.1. Get the List of Time from the Monthly Dataset_**
-> *Point: There are 7 columns per set of monthly data.*
+> **_Point:_** *There are 7 columns per set of monthly data.*
 ```
 =IF(ISBLANK(INDEX(Data!$6:$6,1,(ROW())*7)),
     "",
     INDEX(Data!$6:$6,1,(ROW())*7))
 ```   
 #### **_Step 1.2. Create a List of Time without Blanks**
-> *Point 1: Romove **_Annual Total_** from the list of time.*  
-> *Point 2: Remove blanks from the list.*  
+> **_Point 1:_** *Romove **_Annual Total_** from the list of time.*  
+> **_Point 2:_** *Remove blanks from the list.*  
 ```
 =IFERROR(OFFSET($AD$1,
                 SMALL(IF(ISERROR(FIND("Total",AD:AD)),
