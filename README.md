@@ -20,6 +20,10 @@ Create charts and tables that are easy to track data across time.
 - Formula: ```INDEX``` ```OFFSET```    
  
 ## Demo 2. Bubble Chart
+### 2.1. Introduction  
+**_Action:_** *Click on a specific legend item.*  
+**_Result:_** *Only the selected one is to be shown.*
+
 <img src="https://j.gifs.com/pQEqWp.gif" width="500" height="300" />    
 
 ### 2.1. Select Data for the Chart
