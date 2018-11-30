@@ -47,7 +47,13 @@ Create charts and tables that are easy to track data across time.
 #### **_Step 1. Create a Drop-down List for Start Time_**
 > *Point: Create a drop-down list without blank by ignoring cells not showing formula results.*    
 - Feature: Data Validation
-- Formula: ```FIND``` ```IF``` ```IFERROR``` ```INDEX``` ```ISBLANK``` ```ISERROR``` ```LEN``` ```ROW``` ```SMALL```  
+- Formula: ```FIND``` ```IF``` ```IFERROR``` ```INDEX``` ```ISBLANK``` ```ISERROR``` ```LEN``` ```ROW``` ```SMALL```
+  - *Step 1.1. Get the List of Time from the Monthly Dataset*
+  ```
+  =IF(ISBLANK(INDEX(Data!$6:$6,1,(ROW())*7)),
+       "",
+      INDEX(Data!$6:$6,1,(ROW())*7))
+  ```
 #### **_Step 2. Create a Drop-down List for End Time_**
 > *Point 1: End time should always be greater than start time.*  
 > *Point 2: Create a drop-down list without blank by ignoring cells not showing formula results.*    
