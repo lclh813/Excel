@@ -92,7 +92,7 @@ Create charts and tables that are easy to track data across time.
               1),
          0)
 ```   
-#### **_Step 2.2. Create a List of Time without Blanks_** 
+#### **_Step 2.2. Create a List of End Time Greater than the Selected Start Time_** 
 ```
 =IFERROR(OFFSET($AE$1,
                 SMALL(IF(($AG:$AG1000-(DATE("20"&RIGHT(StartTime,2),
