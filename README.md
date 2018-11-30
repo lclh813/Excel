@@ -105,11 +105,11 @@ Create charts and tables that are easy to track data across time.
          "")
 ```   
 #### **_Step 2.3. Define a Name for End Time_**
-> **_Point 1:_** *Differentiate cells with formula results from those without showing formula results.*   
+> **_Point 2.3.1._** *Differentiate cells with formula results from those without showing formula results.*   
 ```
 =IF(LEN(AH1)>0,1,0)
 ```  
-> **_Point 2:_** *Name cells with formula results.*      
+> **_Point 2.3.2._** *Name cells with formula results.*      
 ```
 =OFFSET(Data!$AH$1,
         0,0,
