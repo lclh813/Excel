@@ -68,7 +68,15 @@ Create charts and tables that are easy to track data across time.
          "")
 ```     
 #### **_Step 1.3. Define a Name for Start Time_**
-> **_Point:_** *Name cells with formula results and exclude those not showing formula reulsts.*    
+> **_Point:_** *Name cells with formula results and exclude those not showing formula results.*    
+```
+=IF(LEN(AE1)>0,1,0)
+```
+```
+=OFFSET(Data!$AE$1,
+        0,0,
+        COUNTIF(Data!$AF:$AF,1),1)
+```  
 
 #### **_Step 2. Create a Drop-down List for End Time_**
 > *Point 1: End time should always be greater than start time.*  
