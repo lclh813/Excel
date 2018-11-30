@@ -2,15 +2,16 @@
 ## Obejective
 Create charts and tables that are easy to track data across time.   
 ## Demo 1. Line Chart
+### 1.1. Outline
 > **_Action:_** *Move cursor to a specific point in the line chart.*  
 > **_Result:_** *Cells that display corresponding time and data change accrodingly.*     
 <img src="https://j.gifs.com/nrBVMW.gif" width="400" height="300" />
-
-### 1.1. Select Data for the Chart
+### 1.2. Steps
+Step 1: Select Data for the Chart
 - Formula: ```INDEX``` ```MATCH```
-### 1.2. Add an Interactive Vertical Line
+Step 2: Add an Interactive Vertical Line
 - Formula: ```IF```
-### 1.3. Dynamically Update Data according to the Location of the Vertical Line
+Step 3: Dynamically Update Data according to the Location of the Vertical Line
 - VBA:   
   - ```Class Module``` Specify which line and which point to be referred to.  
   - ```Module``` Specify to which chart the Class Module is to be applied.    
