@@ -48,7 +48,7 @@ Create charts and tables that are easy to track data across time.
 > *Point: Create a drop-down list without blank by ignoring cells not showing formula results.*    
 - Feature: Data Validation
 - Formula: ```FIND``` ```IF``` ```IFERROR``` ```INDEX``` ```ISBLANK``` ```ISERROR``` ```LEN``` ```ROW``` ```SMALL```  
-##### **_Step 1.1. Get the List of Time from the Monthly Dataset_**
+#### **_Step 1.1. Get the List of Time from the Monthly Dataset_**
 ```
 =IF(ISBLANK(INDEX(Data!$6:$6,1,(ROW())*7)),
     "",
