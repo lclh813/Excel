@@ -35,7 +35,7 @@ Create charts and tables that are easy to track data across time.
 
 ## Demo 3. Cumulative Table
 ### 3.1. Introduction  
-**_Action 1:**_ *Select a specific time from a drop-down list for **_Start Time_**.*  
+**_Action 1:_** *Select a specific time from a drop-down list for **_Start Time_**.*  
 **_Result 1:_** *Drop-down list for **_End Time_** starts one month later than the selected **_Start Time_**.* 
 
 **_Action 2:_** *Select a specific time from a drop-down list for **_End Time_**.*   
