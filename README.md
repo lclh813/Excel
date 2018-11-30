@@ -85,6 +85,6 @@ Create charts and tables that are easy to track data across time.
 - Feature: Data Validation
 - Formula: ```COUNTIF``` ```DATE``` ```FIND``` ```IF``` ```IFERROR``` ```INDEX``` ```ISBLANK``` ```ISERROR``` ```LEFT``` ```LEN``` ```MONTH``` ```RIGHT``` ```ROW``` ```OFFSET``` ```SMALL```  
 #### **_Step 2.1. Make Sure the List of Time is Correct_**    
-> **_Point:_** *There is a possibility that ***_May-14_** to be considered as **_2018/5/14_** by Excel and therefore should be formated to **_2018/5/1_** before further processing.*    
+> **_Point:_** *There is a possibility that May-14 to be considered as 2018/5/14 by Excel and therefore should be formated to 2018/5/1 before further processing.*    
 #### **_Step 3. Calculate Cumulative Sum_**  
 - Formula: ```COLUMN``` ```INDEX``` ```LEFT``` ```LEN``` ```MATCH``` ```RIGHT``` ```SUMPRODUCT```
