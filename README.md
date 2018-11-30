@@ -92,7 +92,7 @@ Create charts and tables that are easy to track data across time.
               1),
          0)
 ```   
-###
+#### **_Step 2.2. Create a List of Time without Blanks_** 
 ```
 =IFERROR(OFFSET($AE$1,
                 SMALL(IF(($AG:$AG1000-(DATE("20"&RIGHT(StartTime,2),
@@ -104,5 +104,16 @@ Create charts and tables that are easy to track data across time.
                 0),
          "")
 ```   
+#### **_Step 2.3. Define a Name for End Time_**
+> **_Point 1:_** *Differentiate cells with formula results from those without showing formula results.*   
+```
+=IF(LEN(AH1)>0,1,0)
+```  
+> **_Point 2:_** *Name cells with formula results.*      
+```
+=OFFSET(Data!$AH$1,
+        0,0,
+        COUNTIF(Data!$AI:$AI,1),1)
+```  
 #### **_Step 3. Calculate Cumulative Sum_**  
 - Formula: ```COLUMN``` ```INDEX``` ```LEFT``` ```LEN``` ```MATCH``` ```RIGHT``` ```SUMPRODUCT```
