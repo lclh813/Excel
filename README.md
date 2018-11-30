@@ -45,7 +45,7 @@ Create charts and tables that are easy to track data across time.
 
 ### 3.2. Steps  
 #### **_Step 1. Create a Drop-down List for Start Time_**
-> **_Point:_** *Create a drop-down list without blanks by ignoring cells not showing formula results.*    
+> **_Point:_** *Create a drop-down list without blanks by ignoring cells without showing formula results.*    
 - Feature: Data Validation
 - Formula: ```FIND``` ```IF``` ```IFERROR``` ```INDEX``` ```ISBLANK``` ```ISERROR``` ```LEN``` ```ROW``` ```SMALL```  
 #### **_Step 1.1. Get the List of Time from the Monthly Dataset_**
