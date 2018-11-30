@@ -81,7 +81,7 @@ Create interactive charts and tables to track data across time.
 
 #### **_Step 2. Create a Drop-down List for End Time_**  
 > **_Point 1:_** *End time should always be greater than start time.*  
-> **_Point 2:_** *Create a drop-down list without blank by ignoring cells not showing formula results.*    
+> **_Point 2:_** *Create a drop-down list without blanks by ignoring cells not showing formula results.*    
 - Feature: Data Validation
 - Formula: ```COUNTIF``` ```DATE``` ```FIND``` ```IF``` ```IFERROR``` ```INDEX``` ```ISBLANK``` ```ISERROR``` ```LEFT``` ```LEN``` ```MONTH``` ```RIGHT``` ```ROW``` ```OFFSET``` ```SMALL```  
 #### **_Step 2.1. Make Sure the List of Time is Correct_**    
