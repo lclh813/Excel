@@ -56,9 +56,11 @@ Create charts and tables that are easy to track data across time.
     INDEX(Data!$6:$6,1,(ROW())*7))
 ```   
 #### **_Step 1.2. Create a List of Time without Blanks**
+> *Point 1: Romove **_Annual Total_** from the list of time.*
+> *Point 2: Remove blanks from the list.*
 ```
 =IFERROR(OFFSET($AD$1,
-                SMALL(IF(ISERROR(FIND("合計",AD:AD)),                                                               
+                SMALL(IF(ISERROR(FIND("Total",AD:AD)),                                                               
                          ROW($AD:$AD),
                          ""),
                       ROW(1:1))-1,
