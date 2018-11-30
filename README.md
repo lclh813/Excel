@@ -1,6 +1,6 @@
 # Excel
 ## Obejective
-
+Create charts and tables that are easy to track data across time.   
 ## Demo 1. Line Chart
 <img src="https://j.gifs.com/nrBVMW.gif" width="400" height="300" />
 
