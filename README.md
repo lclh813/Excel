@@ -2,13 +2,13 @@
 ## Obejective
 Create interactive charts and tables to track data across time.   
 ## Demo 1. Line Chart
-### 1.1. Introduction
+### 1.1. How to Use
 **_Action:_** *Move cursor to a specific point in the line chart.*  
 **_Result:_** *Cells that display corresponding time and data change accrodingly.*
 
 <img src="https://j.gifs.com/nrBVMW.gif" width="400" height="300" />
 
-### 1.2. Steps  
+### 1.2. How to Create  
 #### **_Step 1. Select Data for the Chart_**    
 - Formula: ```INDEX``` ```MATCH```        
 #### **_Step 2. Add an Interactive Vertical Line_**      
@@ -20,13 +20,13 @@ Create interactive charts and tables to track data across time.
 - Formula: ```INDEX``` ```OFFSET```    
  
 ## Demo 2. Bubble Chart
-### 2.1. Introduction  
+### 2.1. How to Use 
 **_Action:_** *Click on a specific legend item.*  
 **_Result:_** *Only the selected one is to be shown.*
 
 <img src="https://j.gifs.com/pQEqWp.gif" width="500" height="300" />    
 
-### 2.2. Steps  
+### 2.2. How to Create  
 #### **_Step 1. Select Data for the Chart_**
 - Formula: ```IF``` ```INDEX``` ```MATCH```
 #### **_Step 2. Add an Interactive Legend_**
@@ -34,7 +34,7 @@ Create interactive charts and tables to track data across time.
   - ```Microsoft Excel Object``` Determine which legend items has been selected and show the corresponding datasets.  
 
 ## Demo 3. Cumulative Table
-### 3.1. Introduction  
+### 3.1. How to Use  
 **_Action 1:_** *Select a specific time from a drop-down list for **_Start Time_**.*  
 **_Result 1:_** *Drop-down list for **_End Time_** starts one month later than the selected **_Start Time_**.* 
 
@@ -43,7 +43,7 @@ Create interactive charts and tables to track data across time.
 
 <img src="https://j.gifs.com/jqxkWl.gif" width="600" height="240" />
 
-### 3.2. Steps  
+### 3.2. How to Create  
 #### **_Step 1. Create a Drop-down List for Start Time_**
 > **_Point:_** *Create a drop-down list without blanks by ignoring cells without showing formula results.*    
 - Feature: Data Validation
