@@ -84,6 +84,7 @@ Create charts and tables that are easy to track data across time.
 > **_Point 2:_** *Create a drop-down list without blank by ignoring cells not showing formula results.*    
 - Feature: Data Validation
 - Formula: ```COUNTIF``` ```DATE``` ```FIND``` ```IF``` ```IFERROR``` ```INDEX``` ```ISBLANK``` ```ISERROR``` ```LEFT``` ```LEN``` ```MONTH``` ```RIGHT``` ```ROW``` ```OFFSET``` ```SMALL```  
-#### **_Step 2.1. Make Sure _**
+#### **_Step 2.1. Make Sure the List of Time is Correct_**    
+> **_Point:_** *There is a possibility that ***_May-14_** to be considered as **_2018/5/14_** by Excel and therefore should be formated to **_2018/5/1_** before further processing.*    
 #### **_Step 3. Calculate Cumulative Sum_**  
 - Formula: ```COLUMN``` ```INDEX``` ```LEFT``` ```LEN``` ```MATCH``` ```RIGHT``` ```SUMPRODUCT```
