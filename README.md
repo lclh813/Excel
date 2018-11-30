@@ -8,7 +8,7 @@ Create charts and tables that are easy to track data across time.
 <img src="https://j.gifs.com/nrBVMW.gif" width="400" height="300" />
 
 ### 1.2. Steps  
-Step 1: Select Data for the Chart
+> **_Step 1:_** *Select Data for the Chart*
 - Formula: ```INDEX``` ```MATCH```
 Step 2: Add an Interactive Vertical Line
 - Formula: ```IF```
