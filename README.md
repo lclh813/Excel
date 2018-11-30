@@ -49,6 +49,7 @@ Create charts and tables that are easy to track data across time.
 - Feature: Data Validation
 - Formula: ```FIND``` ```IF``` ```IFERROR``` ```INDEX``` ```ISBLANK``` ```ISERROR``` ```LEN``` ```ROW``` ```SMALL```  
 #### **_Step 1.1. Get the List of Time from the Monthly Dataset_**
+> *Point: There are 7 columns per set of monthly data.*
 ```
 =IF(ISBLANK(INDEX(Data!$6:$6,1,(ROW())*7)),
     "",
