@@ -31,7 +31,7 @@ Create charts and tables that are easy to track data across time.
 - Formula: ```IF``` ```INDEX``` ```MATCH```
 #### **_Step 2. Add an Interactive Legend_**
 - VBA:   
-  - ```Microsoft Excel Object``` Determine which legend items has been selected and the corresponding datasets.  
+  - ```Microsoft Excel Object``` Determine which legend items has been selected and show the corresponding datasets.  
 
 ## Demo 3. Cumulative Table
 <img src="https://j.gifs.com/jqxkWl.gif" width="600" height="240" />
