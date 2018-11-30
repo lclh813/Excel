@@ -1,6 +1,6 @@
 # Excel
 ## Obejective
-Create charts and tables that are easy to track data across time.   
+Create interactive charts and tables to track data across time.   
 ## Demo 1. Line Chart
 ### 1.1. Introduction
 **_Action:_** *Move cursor to a specific point in the line chart.*  
