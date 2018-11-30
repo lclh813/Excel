@@ -130,5 +130,6 @@ Create charts and tables that are easy to track data across time.
 =SUMPRODUCT(Data!13:13,
             (Data!$5:$5=H$5)*1,
             (COLUMN(Data!13:13)>=MATCH(LEFT(B5,LEN(B5)-2)&(RIGHT(B5,2)-1),Data!6:6,0))*1,
-            (COLUMN(Data!13:13)<=MATCH(LEFT(C5,LEN(C5)-2)&(RIGHT(C5,2)-1),Data!6:6,0)+6*1)
+            (COLUMN(Data!13:13)<=MATCH(LEFT(C5,LEN(C5)-2)&(RIGHT(C5,2)-1),Data!6:6,0)+6)*1
+            )
 ```
