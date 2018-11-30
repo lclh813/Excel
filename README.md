@@ -10,9 +10,9 @@ Create charts and tables that are easy to track data across time.
 
 ### 1.2. Steps  
 **_Step 1: Select Data for the Chart_**  
-- Formula: ```INDEX``` ```MATCH```    
+- Formula: ```INDEX``` ```MATCH```      
 **_Step 2: Add an Interactive Vertical Line_**    
-- Formula: ```IF```    
+- Formula: ```IF```      
 **_Step 3: Dynamically Update Data according to the Location of the Vertical Line_**    
 - VBA:   
   - ```Class Module``` Specify which line and which point to be referred to.    
