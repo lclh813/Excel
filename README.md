@@ -3,8 +3,8 @@
 Create charts and tables that are easy to track data across time.   
 ## Demo 1. Line Chart
 ### 1.1. Introduction  
-**_Action:_** *Move cursor to a specific point in the line chart.*  
-**_Result:_** *Cells that display corresponding time and data change accrodingly.*  
+#### **_Action:_** *Move cursor to a specific point in the line chart.*  
+#### **_Result:_** *Cells that display corresponding time and data change accrodingly.*  
 
 <img src="https://j.gifs.com/nrBVMW.gif" width="400" height="300" />
 
