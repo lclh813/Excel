@@ -1,5 +1,5 @@
 # Excel
-## Obejective
+## Objective
 Create interactive charts and tables to track data across time.   
 ## Demo 1. Line Chart
 ### 1.1. How to Use
