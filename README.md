@@ -6,7 +6,7 @@ Create interactive charts and tables to track data across time.
 **_Action:_** *Move cursor to a specific point in the line chart.*  
 **_Result:_** *Cells that display corresponding time and data change accrodingly.*
 
-<img src="https://j.gifs.com/nrBVMW.gif" width="400" height="300" />
+<img src="https://j.gifs.com/jqyy9W.gif" width="400" height="300" />
 
 ### 1.2. How to Create  
 #### **_Step 1. Select Data for the Chart_**    
