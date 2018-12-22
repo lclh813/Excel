@@ -24,7 +24,7 @@ Create interactive charts and tables to track data across time.
 **_Action:_** *Click on a specific legend item.*  
 **_Result:_** *Only the selected one is to be shown.*
 
-<img src="https://j.gifs.com/pQEqWp.gif" width="500" height="300" />    
+<img src="https://j.gifs.com/E9DDpN.gif" width="500" height="300" />    
 
 ### 2.2. How to Create  
 #### **_Step 1. Select Data for the Chart_**
