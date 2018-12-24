@@ -3,7 +3,7 @@
 Create interactive charts and tables to track data across time.   
 ## Demo 1. Line Chart
 ### 1.1. How to Use
-**_Action:_** *Move cursor to a specific point in the line chart.*  
+**_Action:_** *Move cursor to the specific point in the line chart.*  
 **_Result:_** *Cells that display corresponding time and data change accrodingly.*
 
 <img src="https://j.gifs.com/jqyy9W.gif" width="400" height="300" />
@@ -21,8 +21,8 @@ Create interactive charts and tables to track data across time.
  
 ## Demo 2. Bubble Chart
 ### 2.1. How to Use 
-**_Action:_** *Click on a specific legend item.*  
-**_Result:_** *Only the selected one is to be shown.*
+**_Action:_** *Click on the specific legend item.*  
+**_Result:_** *Only the selected item will be shown in the bubble cahrt.*
 
 <img src="https://j.gifs.com/E9DDLK.gif" width="500" height="300" />    
 
@@ -31,7 +31,7 @@ Create interactive charts and tables to track data across time.
 - Formula: ```IF``` ```INDEX``` ```MATCH```
 #### **_Step 2. Add an Interactive Legend_**
 - VBA:   
-  - ```Microsoft Excel Object``` Determine which legend items has been selected and show the corresponding datasets.  
+  - ```Microsoft Excel Object``` Determine which legend item has been selected and show the corresponding data.  
 
 ## Demo 3. Cumulative Table
 ### 3.1. How to Use  
@@ -39,7 +39,7 @@ Create interactive charts and tables to track data across time.
 **_Result 1:_** *Drop-down list for **_End Time_** starts one month later than the selected **_Start Time_**.* 
 
 **_Action 2:_** *Select a specific time from a drop-down list for **_End Time_**.*   
-**_Result 2:_** *Data for the specific period of time is to be shown.*    
+**_Result 2:_** *Data for the specific period of time will be displayed.*    
 
 <img src="https://j.gifs.com/jqxkWl.gif" width="600" height="240" />
 
@@ -68,11 +68,11 @@ Create interactive charts and tables to track data across time.
          "")
 ```     
 #### **_Step 1.3. Define a Name for Start Time_**
-> **_Point 1:_** *Differentiate cells with formula results from those without showing formula results.*    
+> **_Point 1:_** *Differentiate cells with formula results from those not showing formula results.*    
 ```
 =IF(LEN(AE1)>0,1,0)
 ```
-> **_Point 2:_** *Name cells with formula results.*      
+> **_Point 2:_** *Define a name for a cell range showing formula results.*      
 ```
 =OFFSET(Data!$AE$1,
         0,0,
