@@ -109,7 +109,7 @@ Create interactive charts and tables to track data across time.
 ```
 =IF(LEN(AH1)>0,1,0)
 ```  
-> **_Point 2:_** *Name cells with formula results.*      
+> **_Point 2:_** *Define a name for a cell range showing formula results.*      
 ```
 =OFFSET(Data!$AH$1,
         0,0,
