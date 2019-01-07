@@ -22,7 +22,7 @@ Create interactive charts and tables to track data across time.
 ## Demo 2. Bubble Chart
 ### 2.1. How to Use 
 **_Action:_** *Click on the specific legend item.*  
-**_Result:_** *Only the selected item will be shown in the bubble cahrt.*
+**_Result:_** *Only the selected item will be shown in the bubble chart.*
 
 <img src="https://j.gifs.com/E9DDLK.gif" width="500" height="300" />    
 
